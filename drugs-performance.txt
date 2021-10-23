@@ -1,0 +1,238 @@
+a) NB:
+b) Confusion matrix: 
+[[ 3  0  0  0  0]
+ [ 1  5  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 19  0]
+ [ 1  0  0  0 18]]
+Class drugY:
+	c) precision: 0.6
+	recall: 1.0
+	F1-measure: 0.7499999999999999
+--------------------------------
+Class drugC:
+	c) precision: 1.0
+	recall: 0.8333333333333334
+	F1-measure: 0.9090909090909091
+--------------------------------
+Class drugX:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugA:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugB:
+	c) precision: 1.0
+	recall: 0.9473684210526315
+	F1-measure: 0.972972972972973
+--------------------------------
+Accuracy: 0.96 macro-average F1: 0.9264127764127764 weighted-average F1: 0.9638206388206387
+--------------------------------
+a) Base-DT:
+b) Confusion matrix: 
+[[ 3  0  0  0  0]
+ [ 0  6  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 19  0]
+ [ 0  0  0  0 19]]
+Class drugY:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugC:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugX:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugA:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugB:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Accuracy: 1.0 macro-average F1: 1.0 weighted-average F1: 1.0
+--------------------------------
+a) Top-DT:
+best hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 2}
+b) Confusion matrix: 
+[[ 3  0  0  0  0]
+ [ 0  6  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 19  0]
+ [ 0  0  0  0 19]]
+Class drugY:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugC:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugX:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugA:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Class drugB:
+	c) precision: 1.0
+	recall: 1.0
+	F1-measure: 1.0
+--------------------------------
+Accuracy: 1.0 macro-average F1: 1.0 weighted-average F1: 1.0
+--------------------------------
+a) PER:
+b) Confusion matrix: 
+[[ 2  0  0  0  1]
+ [ 6  0  0  0  0]
+ [ 2  0  0  0  1]
+ [14  1  0  0  4]
+ [ 4  0  0  0 15]]
+Class drugY:
+	c) precision: 0.07142857142857142
+	recall: 0.6666666666666666
+	F1-measure: 0.12903225806451613
+--------------------------------
+Class drugC:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugX:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugA:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugB:
+	c) precision: 0.7142857142857143
+	recall: 0.7894736842105263
+	F1-measure: 0.7500000000000001
+--------------------------------
+Accuracy: 0.34 macro-average F1: 0.17580645161290326 weighted-average F1: 0.292741935483871
+--------------------------------
+a) Base-MLP:
+b) Confusion matrix: 
+[[ 0  0  0  0  3]
+ [ 0  0  0  4  2]
+ [ 0  0  0  0  3]
+ [ 0  0  0  6 13]
+ [ 0  0  0  0 19]]
+Class drugY:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugC:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugX:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugA:
+	c) precision: 0.6
+	recall: 0.3157894736842105
+	F1-measure: 0.41379310344827586
+--------------------------------
+Class drugB:
+	c) precision: 0.475
+	recall: 1.0
+	F1-measure: 0.6440677966101694
+--------------------------------
+Accuracy: 0.5 macro-average F1: 0.21157218001168906 weighted-average F1: 0.4019871420222092
+--------------------------------
+a) Top-MLP:
+best hyperparameters: {'activation': 'tanh', 'hidden_layer_sizes': (30, 50), 'solver': 'adam'}
+b) Confusion matrix: 
+[[ 2  0  0  1  0]
+ [ 1  2  0  3  0]
+ [ 0  0  0  2  1]
+ [ 1  0  0 12  6]
+ [ 0  0  0  0 19]]
+Class drugY:
+	c) precision: 0.5
+	recall: 0.6666666666666666
+	F1-measure: 0.5714285714285715
+--------------------------------
+Class drugC:
+	c) precision: 1.0
+	recall: 0.3333333333333333
+	F1-measure: 0.5
+--------------------------------
+Class drugX:
+	c) precision: 0.0
+	recall: 0.0
+	F1-measure: 0.0
+--------------------------------
+Class drugA:
+	c) precision: 0.6666666666666666
+	recall: 0.631578947368421
+	F1-measure: 0.6486486486486486
+--------------------------------
+Class drugB:
+	c) precision: 0.7307692307692307
+	recall: 1.0
+	F1-measure: 0.8444444444444443
+--------------------------------
+Accuracy: 0.7 macro-average F1: 0.5129043329043329 weighted-average F1: 0.6616610896610896
+--------------------------------
+Step 8 stats:
+	NB: 
+					accuracy	 macro-F1 avg	 weighted F1
+avg				0.9600000000000002	 0.9264127764127764	 0.9638206388206388
+std dev.	2.220446049250313e-16	 0.0	 1.1102230246251565e-16
+----
+	Base-DT: 
+					accuracy	 macro-F1 avg	 weighted F1
+avg				1.0	 1.0	 1.0
+std dev.	0.0	 0.0	 0.0
+----
+	Top-DT: 
+					accuracy	 macro-F1 avg	 weighted F1
+avg				1.0	 1.0	 1.0
+std dev.	0.0	 0.0	 0.0
+----
+	PER: 
+					accuracy	 macro-F1 avg	 weighted F1
+avg				0.33999999999999997	 0.17580645161290326	 0.29274193548387106
+std dev.	5.551115123125783e-17	 0.0	 5.551115123125783e-17
+----
+	Base-MLP: 
+					accuracy	 macro-F1 avg	 weighted F1
+avg				0.4880000000000001	 0.20329363060672617	 0.38625789815277967
+std dev.	0.009797958971132722	 0.006321906142552503	 0.01201162167084975
+----
+	Top-MLP: 
+					accuracy	 macro-F1 avg	 weighted F1
+avg				0.782	 0.6273302061173652	 0.7539337408293432
+std dev.	0.0451220566907139	 0.09915987448417209	 0.060476214697421496
+----
+--------------------------------

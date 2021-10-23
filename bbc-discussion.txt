@@ -1,0 +1,6 @@
+﻿11 a) 
+	The metrics that would be best suited for this dataset would be precision or recall if one we are interested in the model’s performance for one particular class. If we care about all the classes, weighted-F1 would be best, because the classes are not equally distributed among each other.
+
+b) Step 8 is identical because we are using the same training dataset to fit a Naïve Bayes Classifier. Since the training data is identical to the previous step, the calculated prior and conditional probabilites for each class will be identical, which are used to make predictions.
+Step 9: When the smoothing value is set to 0.0001 the weighted-F1 score is slightly down. This is because this would result in near-zero probabilities for missing classes which can lead to overfitting the model on the training dataset. Setting the value to 0.9 raises it back up to almost the identical performance as the models with the default values (by default smoothing =1).
+

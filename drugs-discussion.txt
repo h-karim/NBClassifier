@@ -1,0 +1,4 @@
+﻿8. The Perceptron models and MLP classifiers did vary between rounds. This is because they have some parameters which introduces a level of randomness. Both have a shuffle parameter that is set to True by default. Both models iterate several times over the training data as they refine their weights each time. If this parameter is set to True, then between each internal iteration, the data is shuffled, which inherently produce different parameter values. 
+
+The Decision Tree, and GaussianNB classifiers do not have a level of randomness introduced to them. Provided the training and testing datasets are identical for each round, the model will iterate over the data in the same way each time, leading to the same results (in other words, they produce the final weights from the first iteration). They also do not iterate over the dataset multiple times like the Perceptron and MLP models. 
+

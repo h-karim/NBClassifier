@@ -1,0 +1,172 @@
+MultinomialNB default values, try 1:
+b) confusion_matrix: 
+[[114   0   2   0   0]
+ [  1  70   1   0   1]
+ [  2   0  80   0   0]
+ [  0   0   0  99   0]
+ [  0   0   1   0  74]]
+d) accuracy: 0.9820224719101124 macro avg F1: 0.9816167679813163	weighted avg F1: 0.9820570913720867
+f) vocab size: 29421
+h) word tokens entire corpus: 836357
+j) words with frequency 1: 10005 (34.006322014887324%)
+k) favourite words: sinner:-8.092239406724211, killer:-9.596316803500486
+	class business:
+	c) precision: 0.9743589743589743, recall: 0.9827586206896551, f1-score: 0.9785407725321887
+	e) prior probability: 0.2213483146067416
+	g) word tokens num: 29421
+	i) words with frequency 0: 17538 (59.61048230855511%)
+	-----------
+	class entertainment:
+	c) precision: 1.0, recall: 0.958904109589041, f1-score: 0.9790209790209791
+	e) prior probability: 0.17584269662921342
+	g) word tokens num: 29421
+	i) words with frequency 0: 17746 (60.317460317460316%)
+	-----------
+	class politics:
+	c) precision: 0.9523809523809523, recall: 0.975609756097561, f1-score: 0.963855421686747
+	e) prior probability: 0.1882022471910112
+	g) word tokens num: 29421
+	i) words with frequency 0: 18201 (61.86397471194045%)
+	-----------
+	class sport:
+	c) precision: 1.0, recall: 1.0, f1-score: 1.0
+	e) prior probability: 0.23146067415730343
+	g) word tokens num: 29421
+	i) words with frequency 0: 18850 (64.06988205703409%)
+	-----------
+	class tech:
+	c) precision: 0.9866666666666667, recall: 0.9866666666666667, f1-score: 0.9866666666666668
+	e) prior probability: 0.18314606741573036
+	g) word tokens num: 29421
+	i) words with frequency 0: 17323 (58.87971177050406%)
+	-----------
+-----------
+MultinomialNB default values, try 2:
+b) confusion_matrix: 
+[[114   0   2   0   0]
+ [  1  70   1   0   1]
+ [  2   0  80   0   0]
+ [  0   0   0  99   0]
+ [  0   0   1   0  74]]
+d) accuracy: 0.9820224719101124 macro avg F1: 0.9816167679813163	weighted avg F1: 0.9820570913720867
+f) vocab size: 29421
+h) word tokens entire corpus: 836357
+j) words with frequency 1: 10005 (34.006322014887324%)
+k) favourite words: sinner:-8.092239406724211, killer:-9.596316803500486
+	class business:
+	c) precision: 0.9743589743589743, recall: 0.9827586206896551, f1-score: 0.9785407725321887
+	e) prior probability: 0.2213483146067416
+	g) word tokens num: 29421
+	i) words with frequency 0: 17538 (59.61048230855511%)
+	-----------
+	class entertainment:
+	c) precision: 1.0, recall: 0.958904109589041, f1-score: 0.9790209790209791
+	e) prior probability: 0.17584269662921342
+	g) word tokens num: 29421
+	i) words with frequency 0: 17746 (60.317460317460316%)
+	-----------
+	class politics:
+	c) precision: 0.9523809523809523, recall: 0.975609756097561, f1-score: 0.963855421686747
+	e) prior probability: 0.1882022471910112
+	g) word tokens num: 29421
+	i) words with frequency 0: 18201 (61.86397471194045%)
+	-----------
+	class sport:
+	c) precision: 1.0, recall: 1.0, f1-score: 1.0
+	e) prior probability: 0.23146067415730343
+	g) word tokens num: 29421
+	i) words with frequency 0: 18850 (64.06988205703409%)
+	-----------
+	class tech:
+	c) precision: 0.9866666666666667, recall: 0.9866666666666667, f1-score: 0.9866666666666668
+	e) prior probability: 0.18314606741573036
+	g) word tokens num: 29421
+	i) words with frequency 0: 17323 (58.87971177050406%)
+	-----------
+-----------
+MultinomialNB smoothing 0.0001:
+b) confusion_matrix: 
+[[114   0   2   0   0]
+ [  1  70   1   0   1]
+ [  2   0  80   0   0]
+ [  0   0   0  98   1]
+ [  0   1   2   0  72]]
+d) accuracy: 0.9752808988764045 macro avg F1: 0.974042727595579	weighted avg F1: 0.9753404707705554
+f) vocab size: 29421
+h) word tokens entire corpus: 836357
+j) words with frequency 1: 10005 (34.006322014887324%)
+k) favourite words: sinner:-8.092239406724211, killer:-9.596316803500486
+	class business:
+	c) precision: 0.9743589743589743, recall: 0.9827586206896551, f1-score: 0.9785407725321887
+	e) prior probability: 0.2213483146067416
+	g) word tokens num: 29421
+	i) words with frequency 0: 17538 (59.61048230855511%)
+	-----------
+	class entertainment:
+	c) precision: 0.9859154929577465, recall: 0.958904109589041, f1-score: 0.9722222222222222
+	e) prior probability: 0.17584269662921342
+	g) word tokens num: 29421
+	i) words with frequency 0: 17746 (60.317460317460316%)
+	-----------
+	class politics:
+	c) precision: 0.9411764705882353, recall: 0.975609756097561, f1-score: 0.9580838323353293
+	e) prior probability: 0.1882022471910112
+	g) word tokens num: 29421
+	i) words with frequency 0: 18201 (61.86397471194045%)
+	-----------
+	class sport:
+	c) precision: 1.0, recall: 0.98989898989899, f1-score: 0.9949238578680203
+	e) prior probability: 0.23146067415730343
+	g) word tokens num: 29421
+	i) words with frequency 0: 18850 (64.06988205703409%)
+	-----------
+	class tech:
+	c) precision: 0.972972972972973, recall: 0.96, f1-score: 0.9664429530201343
+	e) prior probability: 0.18314606741573036
+	g) word tokens num: 29421
+	i) words with frequency 0: 17323 (58.87971177050406%)
+	-----------
+-----------
+MultinomialNB smoothing 0.9:
+b) confusion_matrix: 
+[[114   0   2   0   0]
+ [  1  70   1   0   1]
+ [  2   0  80   0   0]
+ [  0   0   0  99   0]
+ [  0   0   1   0  74]]
+d) accuracy: 0.9820224719101124 macro avg F1: 0.9816167679813163	weighted avg F1: 0.9820570913720867
+f) vocab size: 29421
+h) word tokens entire corpus: 836357
+j) words with frequency 1: 10005 (34.006322014887324%)
+k) favourite words: sinner:-8.092239406724211, killer:-9.596316803500486
+	class business:
+	c) precision: 0.9743589743589743, recall: 0.9827586206896551, f1-score: 0.9785407725321887
+	e) prior probability: 0.2213483146067416
+	g) word tokens num: 29421
+	i) words with frequency 0: 17538 (59.61048230855511%)
+	-----------
+	class entertainment:
+	c) precision: 1.0, recall: 0.958904109589041, f1-score: 0.9790209790209791
+	e) prior probability: 0.17584269662921342
+	g) word tokens num: 29421
+	i) words with frequency 0: 17746 (60.317460317460316%)
+	-----------
+	class politics:
+	c) precision: 0.9523809523809523, recall: 0.975609756097561, f1-score: 0.963855421686747
+	e) prior probability: 0.1882022471910112
+	g) word tokens num: 29421
+	i) words with frequency 0: 18201 (61.86397471194045%)
+	-----------
+	class sport:
+	c) precision: 1.0, recall: 1.0, f1-score: 1.0
+	e) prior probability: 0.23146067415730343
+	g) word tokens num: 29421
+	i) words with frequency 0: 18850 (64.06988205703409%)
+	-----------
+	class tech:
+	c) precision: 0.9866666666666667, recall: 0.9866666666666667, f1-score: 0.9866666666666668
+	e) prior probability: 0.18314606741573036
+	g) word tokens num: 29421
+	i) words with frequency 0: 17323 (58.87971177050406%)
+	-----------
+-----------
